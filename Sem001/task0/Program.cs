@@ -1,4 +1,5 @@
-﻿// Напишите программу, которая на вход принимает число и выдает его квадрат (число умноженное 
+﻿
+// Напишите программу, которая на вход принимает число и выдает его квадрат (число умноженное 
 // на само себя).
 
 // Например:
@@ -7,4 +8,14 @@
 // -7 -> 49
 
 
-Console.ReadLine();
+Console.WriteLine("Введите число");
+//int number = Convert.ToInt32(Console.ReadLine()); - конвертация строки в интеджер, 
+// так как команда ReadLine получает строку на выходе
+
+string answer = Console.ReadLine();
+int number = Convert.ToInt32(answer);
+
+Console.WriteLine(number * number);
+
+
+
