@@ -8,9 +8,9 @@ string? answer = Console.ReadLine();
 int number = Convert.ToInt32(answer);
 
 
-if (number || 7 )  
-{
+//if (number || 7 )  
+
     Console.WriteLine("Понедельник");
-}
+
 else
 {}
