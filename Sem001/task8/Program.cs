@@ -10,3 +10,17 @@ if (i % 2 == 0)
 {
  Console.Write(i + " ");
 }
+
+
+
+// int n = 5;
+//for ( int i = 0; i < n; i++) от 0 до n
+
+// int n = 5;
+// int i = 0;
+// while (i > n)
+// {
+//     Console.WriteLine(i);
+//     i++;
+// }
+// В for инкремент цикла всегда одинаковый, а в while может быть разный по ситуации

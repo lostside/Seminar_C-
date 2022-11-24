@@ -11,11 +11,11 @@ int digit1 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите второе число");
 int digit2 = Convert.ToInt32(Console.ReadLine());
 
-if (digit2 == digit1 * digit1)
+if (digit2 == digit1 * digit1 || digit1 == digit2 * digit2)
 {
-    Console.WriteLine($"{digit2} является квадратом {digit1}");
+    Console.WriteLine("да");
 }
 else
 {
-    Console.WriteLine($"{digit2} не является квадратом {digit1}");
+    Console.WriteLine("нет");
 }
