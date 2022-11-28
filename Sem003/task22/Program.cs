@@ -13,8 +13,3 @@ for (int i = 1; i < N; i++)
 }
 Console.Write(Math.Pow(N, 2));
 
-// for (int i = 2; i < number; i = i + 2)
-// if (i % 2 == 0)
-// {
-//  Console.Write(i + " ");
-// }
