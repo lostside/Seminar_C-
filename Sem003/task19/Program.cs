@@ -5,14 +5,14 @@
 // 12821 -> да
 // 23432 -> да
 
-Console.WriteLine("Введите пятизначное число");
-int n = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите пятизначное число");
+// int n = Convert.ToInt32(Console.ReadLine());
 
-if (n > 99999 && n < 10000)
-{
-    Console.WriteLine("Введи еще раз 5 цифр");
-}
-else if ( )
-{
+// if (n > 99999 && n < 10000)
+// {
+//     Console.WriteLine("Введи еще раз 5 цифр");
+// }
+// else if ( )
+// {
     
-}
+// }
