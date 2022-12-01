@@ -14,10 +14,9 @@ int Res(int num)
 {
     int res = 0;
     int i = 0;
-    for (i = 1; i >0 num; i++)
+    for (i = 1; i > 0 ; i++)
     {
         res = res / 10;
-       
     }
     // while(num>0) 
     // {
