@@ -27,7 +27,7 @@ int sum1toA(int A)
     return sum;
 }
 
-int GetNumber(string message)
+int GetNumber(string message) // Метод для ввода числа
 {
     Console.WriteLine(message);
     return Convert.ToInt32(Console.ReadLine());
@@ -37,8 +37,8 @@ int number = GetNumber("Введите число");
 bool IsCorrect = Validate(number);
 if (IsCorrect == true)
 {
-    int sum = sum1toA(number);
-    Console.WriteLine($"Сумма чисел от 1 до {number} = {sum}");
+    int summa = sum1toA(number);
+    Console.WriteLine($"Сумма чисел от 1 до {number} = {summa}");
 }
 else
 {
