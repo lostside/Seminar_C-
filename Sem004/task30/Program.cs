@@ -5,7 +5,7 @@
 
 int[] collection = new int[new Random().Next(10, 12)];
 int i = 0;
-while (i <= (collection.Length -1))
+while (i <= (collection.Length - 1))
 {
     collection[i] = new Random().Next(0,2);
     i ++;
