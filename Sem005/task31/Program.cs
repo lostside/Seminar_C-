@@ -19,7 +19,7 @@ int[] GetRandomArray(int size, int leftRange, int rightRange)
 
 }
 
-(int, int) GetSumPositiveAndNegative( int[] array) // кортеж. на выходе два int
+(int, int) GetSumPositiveAndNegative( int[] array) // кортеж. на выходе два значения int
 {
     int sumPositive = 0;
     int sumNegative = 0;
