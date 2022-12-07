@@ -3,7 +3,7 @@
 // единицами в случайном порядке.
 // [1,0,1,1,0,1,0,0]
 
-int[] collection = new int[new Random().Next(10, 12)];
+int[] collection = new int[new Random().Next(10, 12)]; // создаем массив размером от 10 до 12 
 int i = 0;
 while (i <= (collection.Length - 1))
 {
