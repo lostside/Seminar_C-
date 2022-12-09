@@ -18,7 +18,7 @@ int[] GetRandomArray(int size, int leftRange, int rightRange)
 
 }
 
-const int SIZE = 12; 
+const int SIZE = 12; // размер массива
 const int LEFTRANGE = -10;
 const int RIGHTRANGE = 10;
 
