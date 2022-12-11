@@ -29,7 +29,7 @@ Console.WriteLine($"[{string.Join(", ", arr)}]");
 int res = 0;
 for (int i = 0; i < arr.Length; i++)
 {
-    if (arr[i] <= 99 && arr[i] >= 10)
+    if (arr[i] >= 10 && arr[i]  <= 99)
     {
         res ++;
     }
