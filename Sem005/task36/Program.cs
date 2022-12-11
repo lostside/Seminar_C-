@@ -20,20 +20,20 @@ int[] GetRandomArray(int size, int leftRange, int rightRange)
 
 }
 
-const int SIZE = 4; // размер массива
+const int SIZE = 6; // размер массива
 const int LEFTRANGE = -9;
 const int RIGHTRANGE = 99;
 
 int[] arr = GetRandomArray(SIZE, LEFTRANGE, RIGHTRANGE);
 Console.WriteLine($"[{string.Join(", ", arr)}]");
-
-int res = 0;
-for (int i = 0; i < arr.Length; i++)
+int i = 1;
+int sum = 0;
+while( i < arr.Length)
 {
-    for(int j = 1; arr[j] % 2 != 0; j++) //if (arr[i] % 2 != 0)
+    if ( i % 2 != 0)
     {
-        res = arr[j] + arr[j + 2];
+        sum = sum + arr[i];
     }
+    i++;
 }
-
-Console.WriteLine(res);
+Console.WriteLine(sum);
