@@ -28,6 +28,11 @@ void Reverse(int[] array)
     }
 }
 
+void Foo(int b)
+{
+    b = 5;
+}
+
 const int SIZE = 6; // размер массива
 const int LEFTRANGE = 0;
 const int RIGHTRANGE = 150;
@@ -38,4 +43,10 @@ Console.WriteLine($"[{string.Join(", ", arr)}]");
 Reverse(arr);
 Console.WriteLine();
 Console.WriteLine($"[{string.Join(", ", arr)}]");
+
+int number = 10;
+Console.WriteLine(number);
+Console.WriteLine();
+Foo(number); // измения не произойдут.
+Console.WriteLine(number);
 
