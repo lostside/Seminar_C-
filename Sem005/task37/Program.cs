@@ -36,7 +36,7 @@ for (int i = 0; i < arr.Length / 2; i ++)
 }
 if (arr.Length % 2 != 0)
 {
-    collection[collection.Length - 1] = arr[2];
+    collection[collection.Length - 1] = arr[arr.Length / 2];
 }
 Console.WriteLine($"[{string.Join(", ", collection)}]");
 
