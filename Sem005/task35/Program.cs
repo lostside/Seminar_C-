@@ -5,7 +5,7 @@
 // [1, 2, 3, 6, 2] -> 0
 // [10, 11, 12, 13, 14] -> 5
 
-int[] GetRandomArray(int size, int leftRange, int rightRange)
+int[] GetRandomArray(int size, int leftRange, int rightRange) // тут можно задать значения по умолчанию - leftRange = -10; rightRange = 150
 {
     int[] array = new int[size];
 
@@ -19,7 +19,7 @@ int[] GetRandomArray(int size, int leftRange, int rightRange)
     return array;
 
 }
-const int SIZE = 12; // размер массива
+const int SIZE = 123; // размер массива
 const int LEFTRANGE = 0;
 const int RIGHTRANGE = 150;
 
