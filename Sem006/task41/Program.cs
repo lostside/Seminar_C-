@@ -18,6 +18,7 @@ int[] StringToNum(string input)
             count++;
         }
     }
+    
 
     int[] numbers = new int [count];
     int index = 0;
@@ -38,12 +39,14 @@ int[] StringToNum(string input)
             temp += input [i].ToString();
             break;
         }
+        
         }
         numbers[index] = Convert.ToInt32(temp);
         index++;
     }
     return numbers;
 }
+
 
 Console.Write("Введите числа через запятую: ");
 int[] numbers = StringToNum(Console.ReadLine());
