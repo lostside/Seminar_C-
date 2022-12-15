@@ -34,10 +34,7 @@ int GetSum(int[,] matr)
     {
         for (int j = 0; j < matr.GetLength(1); j++)
         {
-            if(i == j)
-            {
-                sum += matr[i,j];
-            } 
+            sum = sum + matr[i,j];
         }
     }
     return sum;
