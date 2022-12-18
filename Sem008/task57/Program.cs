@@ -62,4 +62,11 @@ int[] Dictionary(int[,] matr)
     }
     return result;
 }
+
 Console.WriteLine(string.Join(", ", Dictionary(matrix)));
+int[] res = Dictionary(matrix);
+for (int i = 0; i < res.Length; i++)
+{
+    Console.WriteLine(i + " встречается " + res[i] + " раз");
+    
+}
