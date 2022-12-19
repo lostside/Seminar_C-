@@ -9,7 +9,7 @@ for (int i = 0; i < sheets.GetLength(0); i++)
         {
             sheets[i,k,j] = numbers;
             numbers++;
-            Console.WriteLine(i,k,j)
+            Console.WriteLine(i,k,j);
         }
     }
     
