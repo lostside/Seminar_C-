@@ -6,3 +6,18 @@
 // 1, -7, 567, 89, 223-> 3
 
 // break для остановки цикла
+int m=0;
+string s = "stop";
+string q = m.ToString();
+int count = 0;
+Console.WriteLine("Введите число");
+m = Convert.ToInt32(Console.ReadLine());
+if (q == s)
+//{   
+    //count = count + 1;
+
+    else
+        Console.WriteLine($"Количество положительных элементов {count}");
+        //break;
+           
+//}
