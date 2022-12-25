@@ -9,11 +9,11 @@ int n = Convert.ToInt32(Console.ReadLine());
 void Numbers(int number)
 {
 
-    if( number == 0  )
+    if( number == 1  )
     {
         return;
     }
     Numbers( number - 1);
-    Console.Write(number + "  ");
+    Console.Write( number + "  ");
 }
 Numbers(n);
